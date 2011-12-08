@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="mod_sliding_login_panel" default="all" basedir=".">
+       <import file="common.xml"/>
+       <target name="all" depends="build,sync,package"/>
+       <target name="package">
+               <antcall target="_package">
+                       <param name="NAME" value="mod_sliding_login_panel"/>
+               </antcall>
+       </target>
+       <target name="build">
+               <antcall target="buildcomponent">
+                       <param name="NAME" value="mod_sliding_login_panel"/>
+                       <param name="PREFIX" value=""/>
+               </antcall>
+       </target>
+       <target name="sync">
+               <antcall target="_sync">
+                       <param name="NAME" value="mod_sliding_login_panel"/>
+               </antcall>
+       </target>
+</project>

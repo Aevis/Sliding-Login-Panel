@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension
+	type="module"
+	version="1.6"
+	client="site"
+	method="upgrade">
+            
+	<name>Sliding Login Panel</name>
+	<creationDate>December 2011</creationDate>
+	<author>Silas Hellinger</author>
+	<authorUrl>http://www.github.com/aevis</authorUrl>
+	<copyright>(C) 2011 Silas Hellinger</copyright>
+	<license>GNU/GPLv2 http://opensource.org/licenses/gpl-2.0.php</license>
+	<description>Joomla adaption of the Sliding Login Panel by Jeremie Tisseau 
+        http://web-kreation.com/all/nice-clean-sliding-login-panel-built-with-jquery/</description>
+
+	<files>
+		<filename>mod_sliding_login_panel.php</filename>
+                <filename>index.html</filename>
+		<folder>css</folder>
+                <folder>images</folder>
+                <folder>js</folder>
+                <folder>tmpl</folder>
+	</files>
+
+	<languages>
+		<language
+			tag="en-GB">en-GB.mod_sliding_login_panel.ini</language>
+	</languages>
+</extension>
