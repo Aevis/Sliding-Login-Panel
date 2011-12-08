@@ -11,8 +11,7 @@
 	<authorUrl>http://www.github.com/aevis</authorUrl>
 	<copyright>(C) 2011 Silas Hellinger</copyright>
 	<license>GNU/GPLv2 http://opensource.org/licenses/gpl-2.0.php</license>
-	<description>Joomla adaption of the Sliding Login Panel by Jeremie Tisseau 
-        http://web-kreation.com/all/nice-clean-sliding-login-panel-built-with-jquery/</description>
+	<description>MOD_DESCRIPTION</description>
 
 	<files>
 		<filename module="mod_sliding_login_panel">mod_sliding_login_panel.php</filename>
@@ -23,7 +22,7 @@
                 <folder>tmpl</folder>
 	</files>
 
-	<languages>
-		<language tag="en-GB">en-GB.mod_sliding_login_panel.ini</language>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_sliding_login_panel.ini</language>
 	</languages>
 </extension>
