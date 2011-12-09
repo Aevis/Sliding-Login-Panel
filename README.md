@@ -10,8 +10,7 @@ Joomla 1.6+. Untested on earlier versions of Joomla.
 
 ## Installation
 
-Zip the mod_sliding_login_panel folder and install it through Joomla's Extension Manager. I've also added
-Ant build files for easier extension developing. Check [this link](http://docs.joomla.org/Building_Joomla_Extensions_with_Apache_Ant/) for more info.
+No Installation possible on master branch files yet. Checkout the develop branch.
 
 ## LICENSE
 
