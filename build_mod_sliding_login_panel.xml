@@ -8,7 +8,7 @@
                </antcall>
        </target>
        <target name="build">
-               <antcall target="buildcomponent">
+               <antcall target="buildmodule">
                        <param name="NAME" value="mod_sliding_login_panel"/>
                        <param name="PREFIX" value=""/>
                </antcall>

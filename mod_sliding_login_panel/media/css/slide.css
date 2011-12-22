@@ -40,7 +40,7 @@ Version: 1.0
   	font-weight: bold;
 	line-height: 42px;
 	margin: 0;
-	right: 150px;
+	left: -35%;
   	color: white;
   	font-size: 80%;
 	text-align: center;
@@ -105,7 +105,8 @@ Version: 1.0
 #toppanel {
     position: absolute;   /*Panel will overlap  content */
     /*position: relative;*/   /*Panel will "push" the content down */
-    top: 0;
+    top: -10px;
+    left: 0;
     width: 100%;
     z-index: 999;
     text-align: center;
@@ -169,7 +170,7 @@ Version: 1.0
 	width: 280px;
 	float: left;
 	padding: 0 15px;
-	border-left: 1px solid #333;
+/*	border-left: 1px solid #333;*/
 }
 
 #panel .content .right {
