@@ -35,10 +35,10 @@ $document->addStyleSheet( JURI::root()."/media/mod_sliding_login_panel/css/style
 	<div class="tab">
             <ul class="login">
                 <li class="left">&nbsp;</li>
-                <li>Hello Guest!</li>
+                <li>Hello <?php echo $user->username; ?></li>
                 <li class="sep">|</li>
                 <li id="toggle">
-                    <a id="open" class="open" href="#">Log In | Register</a>
+                    <a id="open" class="open" href="#"><?php echo $login; ?></a>
                     <a id="close" style="display: none;" class="close" href="#">Close Panel</a>			
                 </li>
                 <li class="right">&nbsp;</li>
